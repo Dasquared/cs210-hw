@@ -1,0 +1,30 @@
+In Foundation 1, I wrote the Video class that encapsulates video information 
+with attributes such as _title, _author, _seconds, and _comments. The class 
+provides methods like GetTitle(), SetTitle(), GetAuthor(), SetAuthor(), 
+GetSeconds(), SetSeconds(), GetComments(), SetComments(), NumberOfComments(), 
+DisplayAllComments(), and DisplayVideoInfo() for accessing and modifying these 
+attributes, calculating the number of comments, and displaying comprehensive 
+information about each video. The Comment class, with attributes _name and 
+_textComment, provides methods for retrieving and setting commenter details and 
+displaying a comment with the method DisplayComment(). Everything works without 
+any problem.
+
+In Foundation 2, I wrote the Order that class manages order details with 
+attributes _products and _customer, offering methods like GetTotalShipping(), 
+GetTotalPrice(), GetPackingLabel(), GetShippingLabel(), 
+DisplayPackingShippingLabel(), and DisplayTotalBilling() for calculating 
+shipping costs, generating labels, and displaying comprehensive billing 
+information. The Product class encapsulates product attributes such as 
+_productId, _name, _price, and _quantity, with corresponding methods for 
+retrieval, modification, and calculating total prices. The Address class 
+encapsulates attributes related to customer addresses, providing methods to 
+check if an address is in the USA and retrieve the full address. The Customer 
+class associates a customer with an address and offers methods for managing 
+customer details, checking if the customer is from the USA, and retrieving the 
+full customer address. Also, in this Foundation everything works without any 
+problem.
+
+What remains to be completed: Foundation 1 and Foundation 2 work properly 
+without problems. For that reason, I need to create the classes with their 
+respective attributes and behaviors for Foundation 3 and Foundation 4 to finish 
+the final project. I will focus this week on doing that.
